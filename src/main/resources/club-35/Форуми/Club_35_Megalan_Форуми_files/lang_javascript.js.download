@@ -1,0 +1,95 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+/**
+* JS Language File: English
+*/
+
+var message_pop_up_lang =
+{
+	// DEFAULT
+	'error'			   : 'Грешка',
+	'no_permission'	   : 'Нямате достатъчно големи права за това действие',
+	'cannot_cont'	   : 'Не може да се продължи с това искане',
+	'settings_updated' : 'Опциите са обновени',
+	
+	// Custom errors:
+	'pp_date_error'     : 'Датата трябва да е действителна дата',
+	'pp_comment_error'  : 'Не можете да поствате празни коментари',
+	'pp_friend_exist'   : 'Този член не съществува',
+	'pp_friend_already' : 'Този член вече е добавен като Ваш приятел',
+	'pp_friend_removed' : 'Приятел(и) премахнати',
+	'pp_icq_error'      : 'Вашия ICQ номер трябва да се изпише с цифри',
+	
+	// Friend added:
+	'pp_friend_added'     : 'Вашия приятел(и) бе добавен във вашия списък!',
+	'pp_friend_added_mod' : 'Вашия приятел трябва да одобри искането Ви',
+	'pp_friend_approved'  : 'Приятелско искане одобрено',
+	
+	// Comments update
+	'pp_comments_updated'  : 'Коментарите обновени',
+	'pp_comment_added_mod' : "Коментара трябва да бъде одобрен преди да се покаже",
+	
+	// POLL MODULE
+	'already_voted' : 'Вече сте гласували',
+	
+	// ARTICLES MODULE
+	'rating_updated' : 'Рейтинга Ви е обновен',
+	'rating_added'   : 'Рейтинга Ви е добавен',
+	'rating_already' : 'Вече сте оценили тази статия'
+};
+
+/**
+* Global stuff
+*/
+
+var ipb_global_lang =
+{
+	// ERROR
+	'post_upload_not_empty'   : 'Имате файл за ъплоуд. Натиснете бутона UPLOAD, за да го качите или натиснете ОК, за да продължите без да качвате.',
+	// EDITORS
+	'editor_enter_url'		  : 'Моля въведете пълния адрес',
+	'editor_enter_title'      : 'Моля въведете заглавието за този файл',
+	'editor_enter_email'      : 'Моля въведете email адреса',
+	'editor_enter_image'      : 'Моля въведете уеб адреса за тази картинка',
+	'editor_enter_list'       : 'Въведете файл от списъка',
+	// GENERAL
+	'general_error'           : 'Грешка',
+	'general_ok'              : 'OK',
+	'image_resized'           : 'Намалено с: <%1>% от оригиналния размер [ <%2> x <%3> ] - Натиснете, за да видите оригиналната картинка',
+	'image_attach_percent'    : 'Намалено с <%1>%',
+	'image_attach_no_percent' : 'Картинката е намалена',
+	'image_attach_dims'       : '<%1> x <%2>',
+	'image_attach_size'       : ' (<%1>)',
+	'click_to_view'           : 'Натиснете, за да видите пълната картинка',
+	'view_full_size'          : 'Вижте картинката в пълната й големина',
+	'visit_my_website'		  : 'Посетете моят сайт'
+};
+}
+
+/*
+     FILE ARCHIVED ON 00:26:39 Feb 09, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:49:21 Feb 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.994
+  exclusion.robots: 0.035
+  exclusion.robots.policy: 0.014
+  esindex: 0.017
+  cdx.remote: 12.054
+  LoadShardBlock: 121.424 (3)
+  PetaboxLoader3.datanode: 161.262 (4)
+  load_resource: 145.785
+  PetaboxLoader3.resolve: 33.506
+*/

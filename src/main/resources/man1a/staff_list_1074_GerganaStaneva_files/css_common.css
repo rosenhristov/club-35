@@ -1,0 +1,189 @@
+@import url(/web/20070204064849cs_/http://www.man1a.com/images/css_modules.css);
+@import url(/web/20070204064849cs_/http://www.man1a.com/images/css_content.css);
+
+body { background: url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_l0.gif) left top; padding: 0; margin: 0; text-align: center; }
+#page { background: url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_l1.gif) left top repeat-x; width: 100%; height: 100%; padding: 18px 0; position: relative; }
+#page-cntr { background: #7B7B7B url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_place_l0.gif) center top repeat-y; width: 760px; text-align: left; margin: auto; }
+#page-cntr-left { background: url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_place_l1_left.gif) left top no-repeat; }
+#page-cntr-right { background: url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_place_l1_right.gif) right top no-repeat; height: 100%; }
+
+body { font: 10px/14px Verdana, Arial, sans-serif; color: #999; }
+h1, h2, h3, h4, h5, h6 { padding: 0; margin: 0; text-align: left; }
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { display: block; text-indent: -1000px; overflow: hidden; }
+h4 { font: bold 10px Verdana, sans-serif; }
+ul, form { padding: 0; margin: 0; }
+table { width: 100%; }
+a { text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+a img { border: none; }
+object { width: 100%; height: 100%; }
+
+/* ------------------------------------------------------------------------------------------ */
+
+#header { text-align: center; position: relative; }
+#header span { display: block; }
+#header .logo { position: absolute; width: 746px; height: 86px; left: 7px; z-index: 1000; }
+#header .cap { height: 86px; overflow: hidden; background: url(/web/20070204064849im_/http://www.man1a.com/images/header_cap.gif) center top no-repeat; }
+#header .ADV { height: 90px; background: #000 url(/web/20070204064849im_/http://www.man1a.com/images/header_adv.gif) center center repeat-x; margin: 0 10px; padding: 7px 0; border-bottom: solid 2px #CCC; }
+#header .sep { margin: 0 9px; height: 5px; background: #7B7B7B; overflow: hidden; }
+
+#page .special { position: absolute; left: 0; margin: -18px 0 0 0; z-index: 1001; display: none; }
+#page .special { width: 99.8%; overflow: hidden; height: 121px; }
+#page .special .inner { width: 860px; height: 121px; margin: 0 auto; position: relative; left: 50%; margin-left: -430px; }
+
+#footer {  }
+#footer span { display: block; }
+#footer .cap { height: 35px; background: url(/web/20070204064849im_/http://www.man1a.com/images/footer_cap.gif) center top no-repeat; }
+
+#page-content { padding: 0 9px; }
+
+/* ------------------------------------------------------------------------------------------ */
+
+* html .col2 li a { float: left; }
+* html #pane-main { margin-left: 159px; }
+* html #content { margin-right: 159px; }
+* html #pane-ftr .inner .cleaner { display: block; }
+* html #main .cnt { height: 500px; }
+* html .articles .pos { margin-right: 5px; }
+
+/* ------------------------------------------------------------------------------------------ */
+
+.cleaner { clear: both; display: block; font-size: 0px; height: 1px; overflow: hidden;  }
+.panel { border: solid #666; border-width: 2px 1px; border-bottom-color: #CCC; }
+.pane { height: 100%; }
+.date { text-transform: capitalize; }
+
+#pane-left { width: 159px; float: left; }
+#pane-main { margin-left: 162px; }
+#pane-right { width: 159px; float: right; }
+#content { margin-right: 162px; }
+
+.wide #pane-right { display: none; }
+.wide #content { margin-right: 0; }
+.wide #page-cntr { background: #7B7B7B url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_place_l0_wide.gif) center top repeat-y; }
+.wide #footer .cap { background: url(/web/20070204064849im_/http://www.man1a.com/images/footer_cap_wide.gif) center top no-repeat; }
+.wide #main { background: #FFF url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_main_wide.gif); }
+.wide #main .cnt { background: url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_main_top_wide.gif) center top no-repeat; }
+.wide #main .ftr { background: url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_main_bot_wide.gif) left bottom no-repeat;  }
+
+#pane-adv { background: #7B7B7B;  padding-top: 5px; }
+#pane-adv .bnr { height: 190px; background: #244154; }
+#pane-adv .sep { background: url(/web/20070204064849im_/http://www.man1a.com/images/pane_adv_bottomsep.gif); height: 6px; overflow: hidden; margin: 0 30px; }
+
+#pane-ftr { border-top: solid 2px #666; font-size: 10px; color: #666; }
+#pane-ftr .bar { height: 20px; background: url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_ftr_bar.gif) repeat-x; }
+#pane-ftr #barr { width: 100%; height: 20px; background: url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_ftr_bar_right.gif) top right no-repeat; }
+#pane-ftr #barl { width: 100%; height: 20px; background: url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_ftr_bar_left.gif) top left no-repeat; }
+#pane-ftr .bar a { display: block; height: 19px; float: right; margin-right: 10px; overflow: hidden; background-repeat: no-repeat; background-position: left; text-indent: -1000px; }
+#pane-ftr .bar a#home { background-image: url(/web/20070204064849im_/http://www.man1a.com/images/ftr_bar_a_home.gif); width: 62px;  }
+#pane-ftr .bar a#top { background-image: url(/web/20070204064849im_/http://www.man1a.com/images/ftr_bar_a_top.gif); width: 56px; }
+#pane-ftr .bar a#print { background-image: url(/web/20070204064849im_/http://www.man1a.com/images/ftr_bar_a_print.gif); width: 68px; }
+#pane-ftr p { padding: 0 10px; margin: 10px 0 0 0; }
+#pane-ftr a { color: #888; }
+#pane-ftr a:hover { color: #FFF; }
+#pane-ftr .inner { /*height: 282px;*/ overflow: hidden; }
+
+/* ------------------------------------------------------------------------------------------ */
+
+#hdr-local { background: #7B7B7B; line-height: 12px; }
+#hdr-local .inner { height: 85px; background: #000 url(/web/20070204064849im_/http://www.man1a.com/images/game_top_bgrd.jpg) right top no-repeat;  padding-left: 15px; }
+#hdr-local .sep { background: url(/web/20070204064849im_/http://www.man1a.com/images/pane_adv_bottomsep.gif); height: 6px; overflow: hidden; margin: 0 30px; }
+#hdr-local h1 { font: bold italic 30px Arial, sans-serif; color: #FFF; line-height: normal; }
+#hdr-local table { border-collapse: collapse; height: 100%; }
+#hdr-local table table { height: auto; }
+#hdr-local th, #hdr-local td { padding: 0; width: 25%; }
+#hdr-local td td { vertical-align: top; }
+#hdr-local td td, #hdr-local a { color: #F00; font-weight: bold; }
+
+#main { background: #FFF url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_main.gif); color: #333; text-align: justify; }
+#main h1 { font: normal 24px/20px Arial, sans-serif; color: #1F1F1F; padding: 0 0 20px 0; }
+/*
+#main h3 { background: #666 url(/web/20070204064849im_/http://www.man1a.com/images/pane_news_header.gif) right top; height: 31px; }
+#main h3 span { background: url(/web/20070204064849im_/http://www.man1a.com/images/pane_news_header.gif) left top; height: 31px; margin-right: 20px; }
+*/
+#main a { color: #C00; }
+#main p { padding: 0; margin: 0 0 20px 0; }
+#main hr { border: 0; height: 1px; color: #FFF; background: #CCC; border-bottom: 1px dashed #C00; }
+#main i, #main em { width: 98%; font-style: normal; font-weight: bold; }
+
+#main .cnt { padding: 20px 20px 20px 20px; background: url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_main_top.gif) center top no-repeat; height: 100%; min-height: 500px; position: relative; }
+#main .cnt h3 { background: none; height: 17px; font: bold 12px Arial, sans-serif; color: #C00; border-bottom: dashed 1px #999; padding-bottom: 5px; margin: 20px 0 5px 0; }
+#main .cnt ul { margin: 20px 0 0 20px; }
+#main .cnt strong a {  }
+#main .cnt .spacer { margin-top: 40px; }
+#main .cnt .more { list-style: none; background: none; }
+#main .cnt .more a { color: #999; text-decoration: none; }
+#main .cnt .more a:hover { color: #C00; }
+#main .cnt a.back { float: right; margin-top: -15px; color: #666; text-decoration: none; }
+#main .cnt a.back:hover { color: #C00; }
+
+
+#main .ftr { height: 29px; overflow: hidden; background: url(/web/20070204064849im_/http://www.man1a.com/images/bgrd_main_bot.gif) left bottom no-repeat; border: none; }
+
+#main .actions { text-align: center; margin-top: 100px; }
+#main .actions h4 { text-align: center; }
+#main .actions hr { border-color: #CCC; }
+#main .actions a { padding-left: 18px; background: url(/web/20070204064849im_/http://www.man1a.com/images/dot_triangle.gif) 7px center no-repeat; font-weight: bold; color: #999;  }
+#main .actions .filter a { padding: 0 1px; background-image: none; }
+
+.articles { overflow: hidden; }
+.articles dt { color: #000; font-weight: bold; text-align: left; clear: both; border-top: dashed 1px #CCC; padding-top: 15px; }
+.articles dt.list { padding: 0; line-height: 18px; border: none; background: url(/web/20070204064849im_/http://www.man1a.com/images/dot_square.gif) 10px center no-repeat;  }
+.articles dt.list a { color: #999; background: url(/web/20070204064849im_/http://www.man1a.com/images/dot_square.gif) 10px center no-repeat;  padding-left: 20px;  }
+.articles dd { margin: 0 0 20px 0; padding: 0 0 20px 0; }
+.articles dd img { vertical-align: middle; }
+.articles dd span { display: block; min-height: 55px; }
+.articles .pic { float: left; width: 60px; margin: 0 10px 0 0; }
+.articles .pos { display: block; float: left; margin: 0 15px 0 0; text-align: right; font: 64px/55px "Arial Black", Arial, sans-serif; letter-spacing: -10px; color: #999; }
+
+.articles .club_map { display: block; width: 50%; float: right; background: #FFF; border: solid 2px #999; padding: 2px; margin: 0 0 20px 0; }
+.articles .club_map img { display: block; width: 100%; }
+
+.articles.games dd { padding-left: 50px; }
+.articles.clubs .pic { width: 100px; border: solid 2px #CCC; }
+.articles.clubs dd { padding-left: 115px; }
+.articles.teams .pic { width: 80px; border: solid 2px #CCC; }
+.articles.teams dd { padding-left: 95px; }
+
+#loc-contacts { position: relative; }
+#loc-gallery .one { background: #FFF; border: solid 2px #999; padding: 2px; margin-bottom: 25px; }
+#loc-gallery .one img { width: 100%; display: block; }
+#loc-gallery .thmb { min-height: 80px; }
+* html #loc-gallery .thmb { height: 80px; }
+#loc-gallery .thmb img { width: 80px; height: 60px; display: block; float: left; background: #FFF; border: solid 2px #999; padding: 2px; margin: 4px 7px 4px 0; }
+#loc-gallery .thmb img.end { margin-right: 0; }
+#loc-gallery .more { }
+#loc-gallery h3 {  }
+
+.wide #loc-gallery .thmb img { margin-right: 2px; }
+.wide #loc-gallery .thmb img.end { margin-right: 0; }
+
+/* ------------------------------------------------------------------------------------------ */
+
+form, lable, input, textarea, option, select { font: 10px Verdana, sans-serif; }
+textarea { overflow: auto; width: 100%;}
+.formInputShort { width: 33%;}
+.formInputMedium { width: 66%; }
+.formInputLong, .input_wide { width: 99%; }
+.formButton { padding: 5px 10px;}
+
+/*
+     FILE ARCHIVED ON 06:48:49 Feb 04, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:41:28 Feb 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.461
+  exclusion.robots: 0.014
+  exclusion.robots.policy: 0.006
+  esindex: 0.006
+  cdx.remote: 29.119
+  LoadShardBlock: 154.602 (3)
+  PetaboxLoader3.datanode: 179.132 (4)
+  load_resource: 194.644
+  PetaboxLoader3.resolve: 29.3
+*/

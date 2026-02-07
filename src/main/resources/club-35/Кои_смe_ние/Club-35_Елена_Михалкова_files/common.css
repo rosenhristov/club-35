@@ -1,0 +1,53 @@
+body {
+	background-color: #374E5B; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #CCCCCC; }
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #CCCCCC; }
+p, input, textarea, select, option {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; }
+
+a { color: #FFFFFF; }
+a:hover { color: #FFCC00; }
+
+.bg-ftr-bar-c { color: #FFCC00; background-image: url(/web/20070719124849im_/http://club-35.com/images/features_bgrd_color.gif); background-color: #990000; }
+.bg-ftr-bar-bw { color: #FFCC00; background-color: #666666; background-image: url(/web/20070719124849im_/http://club-35.com/images/features_bgrd_bw.gif); }
+.bg-ftr-main { background-color: #465B67; }
+.bg-ftr-main-d { background-color: #273E4B; }
+.bg-ftr-main-d a { color: #FFCC00; text-decoration: none; }
+.bg-ftr-main-d a:hover { color: #FFFFFF; }
+
+.border-b { background-color: #000000; }
+
+.nav-main { 	cursor: pointer; cursor: hand; }
+.nav-main a { color: #FFFFFF; text-decoration: none; }
+.nav-main a:hover { color: #FFFFFF; }
+
+.ttl-page { 
+	font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #FFFFFF; }.t-color {
+	color: #FFCC00;
+}
+
+.sep-line-h { background-image:  url(/web/20070719124849im_/http://club-35.com/images/line_h_sep.gif); }
+.sep-field { background-color: #3E5461; }
+
+.bar-dark { color: #FFFFFF; background-color: #273E4B; }
+.bar-light { color: #000000; background-color: #566A75; }
+/*
+     FILE ARCHIVED ON 12:48:49 Jul 19, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:35:46 Feb 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.56
+  exclusion.robots: 0.017
+  exclusion.robots.policy: 0.008
+  esindex: 0.009
+  cdx.remote: 7.196
+  LoadShardBlock: 110.836 (3)
+  PetaboxLoader3.datanode: 146.069 (4)
+  load_resource: 92.962
+  PetaboxLoader3.resolve: 42.613
+*/
